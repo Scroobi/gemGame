@@ -1,0 +1,33 @@
+#wrapper
+{
+    width: 960px;
+    margin: auto;
+    background: rgb(240, 152, 240);
+}
+
+#wrapper1
+{
+    width: 50%;
+    background: purple;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+#wrapper2
+{
+    width: 50%;
+    background: purple;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+#wrapper3
+{
+    width: 50%;
+    background: purple;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+}
