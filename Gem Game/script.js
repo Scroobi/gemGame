@@ -55,7 +55,7 @@ $(document).ready(function () {
     {
         userAmount = userAmount + gem1;
         console.log("New Total = " + userAmount);
-        $("yourAmount").text(userAmount);
+        $("#yourAmount").text("Your Total: " + userAmount);
         if(userAmount == rando)
         {
             winz();
@@ -70,7 +70,7 @@ $(document).ready(function () {
     {
         userAmount = userAmount + gem2;
         console.log("New Total = " + userAmount);
-        $("yourAmount").text(userAmount);
+        $("#yourAmount").text("Your Total: " + userAmount);
         if(userAmount == rando)
         {
             winz();
@@ -85,7 +85,7 @@ $(document).ready(function () {
     {
         userAmount = userAmount + gem3;
         console.log("New Total = " + userAmount);
-        $("yourAmount").text(userAmount);
+        $("#yourAmount").text("Your Total: " + userAmount);
         if(userAmount == rando)
         {
             winz();
@@ -100,7 +100,7 @@ $(document).ready(function () {
     {
         userAmount = userAmount + gem4;
         console.log("New Total = " + userAmount);
-        $("yourAmount").text(userAmount);
+        $("#yourAmount").text("Your Total: " + userAmount);
         if(userAmount == rando)
         {
             winz();
